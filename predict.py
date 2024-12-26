@@ -18,7 +18,7 @@ class_labels = list(set(class_labels_df['tags'].tolist()))  # Assuming the colum
 class_labels.sort()  # Optional: Sort alphabetically for consistent output
 
 # Path to the new image
-image_path = 'planet/test-jpg/test_4008.jpg'
+image_path = 'planet/test-jpg/test_1000.jpg'
 
 # Preprocess the image
 # img = load_img(image_path, target_size=(224, 224))  # Adjust to the model's input shape
